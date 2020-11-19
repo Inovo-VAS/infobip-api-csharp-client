@@ -33,7 +33,7 @@
 
             //new SmsPreviewExample().RunExampleAsync().Wait();
 
-            //new AdvancedOmniMessageExample().RunExampleAsync().Wait();
+            new AdvancedOmniMessageExample().RunExampleAsync().Wait();
         }
     }
 }

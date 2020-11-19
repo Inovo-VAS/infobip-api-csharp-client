@@ -41,6 +41,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="CommandLine, Version=2.8.0.0, Culture=neutral, PublicKeyToken=5a870481e358d379, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\infobipcli\infobipcli\packages\CommandLineParser.2.8.0\lib\net45\CommandLine.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -143,6 +146,7 @@
     <Compile Include="Infobip\Api\Model\Omni\Send\ViberData.cs" />
     <Compile Include="Infobip\Api\Model\Omni\Send\VKontakteData.cs" />
     <Compile Include="Infobip\Api\Model\Omni\Send\VoiceData.cs" />
+    <Compile Include="Infobip\Api\Model\Omni\Send\WhatsappData.cs" />
     <Compile Include="Infobip\Api\Model\Omni\Status.cs" />
     <Compile Include="Infobip\Api\Model\Omni\To.cs" />
     <Compile Include="Infobip\Api\Model\Price.cs" />

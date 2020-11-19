@@ -13,6 +13,7 @@ namespace Infobip.Api.Model.Omni
         VIBER,
         FACEBOOK,
         LINE,
-        VKONTAKTE
+        VKONTAKTE,
+        WHATSAPP
     }
 }

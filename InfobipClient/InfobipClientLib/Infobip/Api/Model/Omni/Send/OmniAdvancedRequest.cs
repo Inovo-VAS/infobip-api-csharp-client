@@ -42,6 +42,9 @@ namespace Infobip.Api.Model.Omni.Send
         [JsonProperty("facebook")]
         public FacebookData Facebook { get; set; }
 
+        [JsonProperty("whatsApp")]
+        public WhatsappData WhatsApp { get; set; }
+
         [JsonProperty("line")]
         public LineData Line { get; set; }
 
